@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #9face6);
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        a:hover {
+            background-color: #388e3c;
+        }
+
+        p {
+            margin-top: 30px;
+            font-size: 18px;
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Welcome to the Page</h1>
+
+<h1>
+    <a href="/register">Register</a> <br><br>
+    You don't have an account
+</h1>
+
+<h1>
+    <a href="/login">Login</a> <br><br>
+    You have an account
+</h1>
+
+<h1>
+    <a href="/logout">Logout</a>
+</h1>
+
+<p>{{ content }}</p>
+
+</body>
+</html>
